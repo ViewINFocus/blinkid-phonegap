@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6156f10a-c161-4181-b504-dabca0dbf57d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/plugin.xml" afterPath="$PROJECT_DIR$/plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/scripts/addEmbedded.js" afterPath="$PROJECT_DIR$/scripts/addEmbedded.js" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/scripts/fix-largeheap.js" afterPath="$PROJECT_DIR$/scripts/fix-largeheap.js" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/scripts/initIOSFramework.sh" afterPath="$PROJECT_DIR$/scripts/initIOSFramework.sh" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/FakeR.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/FakeR.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/MicroblinkScanner.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/MicroblinkScanner.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/RecognizerType.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/RecognizerType.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/overlays/OverlaySettingsSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/overlays/OverlaySettingsSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/overlays/OverlaySettingsSerializers.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/overlays/OverlaySettingsSerializers.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/overlays/serialization/BarcodeOverlaySettingsSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/overlays/serialization/BarcodeOverlaySettingsSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/overlays/serialization/DocumentOverlaySettingsSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/overlays/serialization/DocumentOverlaySettingsSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/overlays/serialization/DocumentVerificationOverlaySettingsSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/overlays/serialization/DocumentVerificationOverlaySettingsSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/RecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/RecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/RecognizerSerializers.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/RecognizerSerializers.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustraliaDlBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustraliaDlBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustraliaDlFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustraliaDlFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustriaCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustriaCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustriaIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustriaIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustriaIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustriaIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustriaPassportRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/AustriaPassportRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/BarcodeRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/BarcodeRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/BlinkIDSerializationUtils.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/BlinkIDSerializationUtils.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/ColombiaIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/ColombiaIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/ColombiaIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/ColombiaIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CroatiaCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CroatiaCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CroatiaIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CroatiaIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CroatiaIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CroatiaIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CzechiaCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CzechiaCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CzechiaIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CzechiaIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CzechiaIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/CzechiaIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/DocumentFaceRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/DocumentFaceRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/EgyptIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/EgyptIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/EudlRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/EudlRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyOldIdRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyOldIdRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyPassportRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/GermanyPassportRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/HongKongIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/HongKongIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/IkadRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/IkadRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/IndonesiaIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/IndonesiaIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/JordanCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/JordanCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/JordanIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/JordanIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/JordanIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/JordanIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MalaysiaDlFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MalaysiaDlFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MrtdCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MrtdCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MrtdRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MrtdRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MyKadBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MyKadBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MyKadFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MyKadFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MyTenteraRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/MyTenteraRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/NewZealandDlFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/NewZealandDlFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/Pdf417RecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/Pdf417RecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/PolandCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/PolandCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/PolandIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/PolandIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/PolandIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/PolandIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/RomaniaIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/RomaniaIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SerbiaCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SerbiaCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SerbiaIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SerbiaIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SerbiaIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SerbiaIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SerializationUtils.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SerializationUtils.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SimNumberRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SimNumberRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SingaporeCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SingaporeCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SingaporeIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SingaporeIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SingaporeIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SingaporeIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SlovakiaCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SlovakiaCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SlovakiaIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SlovakiaIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SlovakiaIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SlovakiaIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SloveniaCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SloveniaCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SloveniaIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SloveniaIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SloveniaIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SloveniaIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SuccessFrameGrabberRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SuccessFrameGrabberRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SwedenDlFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SwedenDlFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SwitzerlandIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SwitzerlandIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SwitzerlandIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SwitzerlandIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SwitzerlandPassportRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/SwitzerlandPassportRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/UnitedArabEmiratesIdBackRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/UnitedArabEmiratesIdBackRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/UnitedArabEmiratesIdFrontRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/UnitedArabEmiratesIdFrontRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/UsdlCombinedRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/UsdlCombinedRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/UsdlRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/UsdlRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/VinRecognizerSerialization.java" afterPath="$PROJECT_DIR$/src/android/java/com/phonegap/plugins/microblink/recognizers/serialization/VinRecognizerSerialization.java" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/libBlinkID.gradle" afterPath="$PROJECT_DIR$/src/android/libBlinkID.gradle" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/res/layout/splash_screen.xml" afterPath="$PROJECT_DIR$/src/android/res/layout/splash_screen.xml" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/android/res/raw/beep.mp3" afterPath="$PROJECT_DIR$/src/android/res/raw/beep.mp3" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/CDVMicroblinkScanner.h" afterPath="$PROJECT_DIR$/src/ios/sources/CDVMicroblinkScanner.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/CDVMicroblinkScanner.m" afterPath="$PROJECT_DIR$/src/ios/sources/CDVMicroblinkScanner.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/MBBlinkIDSerializationUtils.h" afterPath="$PROJECT_DIR$/src/ios/sources/MBBlinkIDSerializationUtils.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/MBBlinkIDSerializationUtils.m" afterPath="$PROJECT_DIR$/src/ios/sources/MBBlinkIDSerializationUtils.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/MBSerializationUtils.h" afterPath="$PROJECT_DIR$/src/ios/sources/MBSerializationUtils.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/MBSerializationUtils.m" afterPath="$PROJECT_DIR$/src/ios/sources/MBSerializationUtils.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/MBOverlaySettingsSerializers.h" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/MBOverlaySettingsSerializers.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/MBOverlaySettingsSerializers.m" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/MBOverlaySettingsSerializers.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/MBOverlayVCCreator.h" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/MBOverlayVCCreator.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/MBOverlayViewControllerDelegate.h" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/MBOverlayViewControllerDelegate.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/Serialization/MBBarcodeOverlaySettingsSerialization.h" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/Serialization/MBBarcodeOverlaySettingsSerialization.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/Serialization/MBBarcodeOverlaySettingsSerialization.m" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/Serialization/MBBarcodeOverlaySettingsSerialization.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/Serialization/MBDocumentOverlaySettingsSerialization.h" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/Serialization/MBDocumentOverlaySettingsSerialization.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/Serialization/MBDocumentOverlaySettingsSerialization.m" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/Serialization/MBDocumentOverlaySettingsSerialization.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/Serialization/MBDocumentVerificationOverlaySettingsSerialization.h" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/Serialization/MBDocumentVerificationOverlaySettingsSerialization.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Overlays/Serialization/MBDocumentVerificationOverlaySettingsSerialization.m" afterPath="$PROJECT_DIR$/src/ios/sources/Overlays/Serialization/MBDocumentVerificationOverlaySettingsSerialization.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/MBRecognizerSerializers.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/MBRecognizerSerializers.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/MBRecognizerSerializers.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/MBRecognizerSerializers.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/MBRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/MBRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/MBRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/MBRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustraliaDlBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustraliaDlBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustraliaDlBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustraliaDlBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustraliaDlFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustraliaDlFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustraliaDlFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustraliaDlFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustriaCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustriaCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustriaCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustriaCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustriaIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustriaIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustriaIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustriaIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustriaIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustriaIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustriaIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustriaIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustriaPassportRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustriaPassportRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBAustriaPassportRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBAustriaPassportRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBBarcodeRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBBarcodeRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBBarcodeRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBBarcodeRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBColombiaIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBColombiaIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBColombiaIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBColombiaIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBColombiaIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBColombiaIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBColombiaIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBColombiaIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCroatiaCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCroatiaCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCroatiaCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCroatiaCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCroatiaIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCroatiaIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCroatiaIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCroatiaIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCroatiaIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCroatiaIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCroatiaIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCroatiaIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCzechiaCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCzechiaCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCzechiaCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCzechiaCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCzechiaIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCzechiaIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCzechiaIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCzechiaIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCzechiaIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCzechiaIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBCzechiaIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBCzechiaIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBDocumentFaceRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBDocumentFaceRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBDocumentFaceRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBDocumentFaceRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBEgyptIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBEgyptIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBEgyptIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBEgyptIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBEudlRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBEudlRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBEudlRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBEudlRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyOldIdRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyOldIdRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyOldIdRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyOldIdRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyPassportRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyPassportRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBGermanyPassportRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBGermanyPassportRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBHongKongIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBHongKongIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBHongKongIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBHongKongIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBIkadRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBIkadRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBIkadRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBIkadRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBIndonesiaIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBIndonesiaIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBIndonesiaIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBIndonesiaIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBJordanCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBJordanCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBJordanCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBJordanCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBJordanIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBJordanIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBJordanIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBJordanIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBJordanIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBJordanIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBJordanIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBJordanIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMalaysiaDlFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMalaysiaDlFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMalaysiaDlFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMalaysiaDlFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMrtdCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMrtdCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMrtdCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMrtdCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMrtdRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMrtdRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMrtdRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMrtdRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMyKadBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMyKadBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMyKadBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMyKadBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMyKadFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMyKadFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMyKadFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMyKadFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMyTenteraRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMyTenteraRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBMyTenteraRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBMyTenteraRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBNewZealandDlFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBNewZealandDlFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBNewZealandDlFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBNewZealandDlFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBPdf417RecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBPdf417RecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBPdf417RecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBPdf417RecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBPolandCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBPolandCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBPolandCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBPolandCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBPolandIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBPolandIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBPolandIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBPolandIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBPolandIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBPolandIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBPolandIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBPolandIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBRomaniaIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBRomaniaIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBRomaniaIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBRomaniaIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSerbiaCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSerbiaCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSerbiaCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSerbiaCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSerbiaIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSerbiaIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSerbiaIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSerbiaIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSerbiaIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSerbiaIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSerbiaIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSerbiaIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSimNumberRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSimNumberRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSimNumberRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSimNumberRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSingaporeCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSingaporeCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSingaporeCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSingaporeCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSingaporeIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSingaporeIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSingaporeIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSingaporeIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSingaporeIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSingaporeIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSingaporeIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSingaporeIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSlovakiaCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSlovakiaCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSlovakiaCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSlovakiaCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSlovakiaIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSlovakiaIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSlovakiaIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSlovakiaIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSlovakiaIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSlovakiaIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSlovakiaIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSlovakiaIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSloveniaCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSloveniaCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSloveniaCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSloveniaCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSloveniaIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSloveniaIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSloveniaIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSloveniaIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSloveniaIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSloveniaIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSloveniaIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSloveniaIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSuccessFrameGrabberRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSuccessFrameGrabberRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSuccessFrameGrabberRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSuccessFrameGrabberRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSwedenDlFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSwedenDlFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSwedenDlFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSwedenDlFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandPassportRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandPassportRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandPassportRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBSwitzerlandPassportRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBUnitedArabEmiratesIdBackRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBUnitedArabEmiratesIdBackRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBUnitedArabEmiratesIdBackRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBUnitedArabEmiratesIdBackRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBUnitedArabEmiratesIdFrontRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBUnitedArabEmiratesIdFrontRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBUnitedArabEmiratesIdFrontRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBUnitedArabEmiratesIdFrontRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBUsdlCombinedRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBUsdlCombinedRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBUsdlCombinedRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBUsdlCombinedRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBUsdlRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBUsdlRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBUsdlRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBUsdlRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBVinRecognizerWrapper.h" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBVinRecognizerWrapper.h" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/src/ios/sources/Recognizers/Wrappers/MBVinRecognizerWrapper.m" afterPath="$PROJECT_DIR$/src/ios/sources/Recognizers/Wrappers/MBVinRecognizerWrapper.m" />
+      <change beforePath="$PROJECT_DIR$/BlinkID/www/blinkIdScanner.js" afterPath="$PROJECT_DIR$/www/blinkIdScanner.js" />
+      <change beforePath="$PROJECT_DIR$/initCordovaDemoApp.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/initIonicDemoApp.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/publish.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/css/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="264">
+                <caret line="155" column="13" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blinkIdScanner.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/blinkIdScanner.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2157">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Release notes.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Release notes.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.sh</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/initCordovaDemoApp.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blinkid-phonegap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blinkid-phonegap" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v6.10.2/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6156f10a-c161-4181-b504-dabca0dbf57d" name="Default" comment="" />
+      <created>1532391015663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532391015663</updated>
+      <workItem from="1532391017090" duration="851000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="851000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/initIonicDemoApp.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Release notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="264">
+            <caret line="155" column="13" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/initCordovaDemoApp.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publish.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/blinkIdScanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2157">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
