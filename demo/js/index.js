@@ -80,7 +80,7 @@ var app = {
         // create RecognizerCollection from any number of recognizers that should perform recognition
         var recognizerCollection = new cordova.plugins.BlinkID.RecognizerCollection([eudlSuccessFrameGrabber, usdlSuccessFrameGrabber, mrtdSuccessFrameGrabber]);
 
-        // package name/bundleID com.microblink.blinkid
+        // package name/bundleID blinkid-cordova
         var licenseKeys = {
             android: 'sRwAAAAWY29tLm1pY3JvYmxpbmsuYmxpbmtpZJ9ew03yWSf86/uxZPHQ4PBK8Xl7FWLTK6DY3zACIj5Y0x0zqP44y/f9HU+1d+mmyadazZeUHHW+q8PwmDsV+5CmqxpFavyEK4t1dcw0O3GfwDQS1tenfQYsZqqY+KXf+XPW87FupyPD36m44rBiPhMuFnzhXOllkCBrAz8YWm1fqz/DiH5ZM8KU/ypLfW+ipg==',
             ios: 'sRwAAAEWY29tLm1pY3JvYmxpbmsuYmxpbmtpZFG2rW+L4lA0y++pNbwRi7nGsZAzUO+QVAJr1+O8efMlVH+Wjey5oFl4AdQ9Jwe7i+prTE8H/d0ewiwj5uTDe1G9UQ3DHqEiSFEthriGikq0UayY1qBPVZvUHPPlYJthjadbwRmT2kFcXyZPv3qtff/eMhcwDK9bR+VUlEz3G/YIfOEAXHMbPXzNPQVxPqwGww=='

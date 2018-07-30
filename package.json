@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "description": "A small and powerful ID card scanning library",
   "cordova": {
-    "id": "com.microblink.blinkid",
+    "id": "blinkid-cordova",
     "platforms": [
       "android",
       "ios"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlinkID/blinkid-phonegap.git"
+    "url": "git+https://github.com/ViewInFocus/blinkid-phonegap.git"
   },
   "keywords": [
     "scan",
